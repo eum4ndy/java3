@@ -5,6 +5,6 @@ function incrementar() {
 }
 
 function diminuir(){
-    valorContador
+    valorContador--;
     document.getElementById(`contador`).innerText = valorContador;
 }
